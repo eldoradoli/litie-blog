@@ -17,7 +17,6 @@ published = "2006-01-02"
 lastUpdated = "2006-01-02"
 
 
-
 #####################
 # 左侧边栏
 #####################
@@ -26,10 +25,9 @@ lastUpdated = "2006-01-02"
 
 emoji = "🔞"
 
-subtitle = "Xi'an Jiaotong University"
+subtitle = "Beihang University<br>Xi'an Jiaotong University<br>Honor"
 
 avatar = "/img/labixiaoxin.jpg"
-
 
 
 #####################
@@ -50,8 +48,6 @@ readingTime = true
 enabled = false
 
 
-
-
 #####################
 # 首页组件
 #####################
@@ -60,24 +56,18 @@ enabled = false
 
 homepage = [
 
-{ type = "search" },
+    { type = "search" },
 
-{ type = "archives", params = { limit = 10 } },
+    { type = "archives", params = { limit = 10 } },
 
-{ type = "categories", params = { limit = 10 } },
+    { type = "categories", params = { limit = 10 } },
 
-{ type = "tag-cloud", params = { limit = 20 } },
-
-]
-
-
-page = [
-
-{ type = "toc" }
+    { type = "tag-cloud", params = { limit = 20 } },
 
 ]
 
 
+page = [{ type = "toc" }]
 
 
 #####################
@@ -89,7 +79,6 @@ page = [
 toggle = true
 
 default = "auto"
-
 
 
 #####################
