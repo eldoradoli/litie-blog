@@ -1,7 +1,7 @@
 ---
 title: "TensorRT部署MediaPipe Hands全过程"
 
-date: 2026-06-19
+date: 2026-06-18
 
 draft: false
 
